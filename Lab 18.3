@@ -1,15 +1,13 @@
 #define _CRT_SECURE_NO_DEPRECATE
 #include <stdio.h>
 
-struct employee {
+typedef struct {
 	char Surname[100];
 	char Post[100];
 	int Salary;
 	int DateOfSigning;
 	int ValidityPeriod;
-};
-
-typedef struct employee Employee;
+} employee;
 
 void main() {
 	Employee Ivanov, Pupkin, Jobs;
